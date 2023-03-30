@@ -14,13 +14,5 @@ namespace SOLID_PraticasCorretas.DependencyInversionPrinciple
             if(OitemPedido == null)
                 throw new Exception("Não existem Itens para esse Pedido.");
         }
-
-        public class ItemPedido
-        {
-            public int Id { get; set; }
-            public string Nome { get; set; }
-        }
-    }
-
-     
+    }     
 }

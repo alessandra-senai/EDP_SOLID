@@ -12,12 +12,6 @@ namespace SOLID_Pratiicas_Erradas.DependencyInversionPrinciple
         {
             List<ItemPedido> oItemPedido = new List<ItemPedido>();
         }
-
-        public class ItemPedido
-        {
-            public int Id { get; set; }
-            public string Nome { get; set; }
-        }
     }
 
 
